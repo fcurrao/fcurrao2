@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+
+  <meta property="og:type" content="article" >
+  <meta property="og:title" content="fcurrao" >
+  <meta property="og:description" content="Aquí encontraras mis proyectos personales, skills, y muchas mas información sobre mi..." >
+  <meta property="og:url" content="https://fcurrao.netlify.app/" >
+  <meta property="og:image" content="https://res.cloudinary.com/dmaatw3qn/image/upload/v1651523075/portfolio/portfolioCover_fd9hrg.jpg">
+
+  <!--==================== UNICONS ====================-->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
+
+  <!--==================== SWIPER CSS ====================-->
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+  <!--==================== CSS ====================-->
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <title>Federico Currao GQUE</title>
+</head>
+
+<body>
+  <!--==================== HEADER ====================-->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">Federico Currao GQUE</a>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class='nav__list grid'>
+          <li class="nav__item">
+            <a href="#home" class="nav__link active-link">
+              <i class="uil uil-estate nav__icon"></i> Inicio
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">
+              <i class="uil uil-user nav__icon"></i> Acerca
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#portfolio" class="nav__link">
+              <i class="uil uil-scenery nav__icon"></i> Portafolio
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#skills" class="nav__link">
+              <i class="uil uil-file-alt nav__icon"></i> Skills
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#study" class="nav__link">
+              <i class="uil uil-graduation-cap nav__icon"></i> Estudios
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">
+              <i class="uil uil-message nav__icon"></i> Contacto
+            </a>
+          </li>
+
+          <i class="uil uil-times nav__close" id="nav-close"></i>
+        </ul>
+      </div>
+
+      <div class="nav__btns">
+        <!-- Theme change button -->
+        <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="uil uil-bars"></i>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!--==================== MAIN ====================-->
+  <main class="main">
+    <!--==================== HOME ====================-->
+    <section class="home section" id="home">
+      <div class="home__container container grid">
+        <div class="home__content grid">
+          <div class="home__social">
+            <a href="https://www.linkedin.com/in/carlos-deasi/" target="_blank" class="home__social-icon">
+              <i class="uil uil-linkedin"></i>
+            </a>
+
+            <a href="https://github.com/Carlos95HD" target="_blank" class="home__social-icon">
+              <i class="uil uil-github"></i>
+            </a>
+          </div>
+
+          <div class="home__img">
+             <svg class="home__blob" viewBox="0 0 200 187" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+               <mask id="mask0" mask-type="alpha">
+                <path d="M63.5,-50.4C78.4,-32,84,-5.8,78.4,17.7C72.9,41.1,56.3,61.7,34.8,72C13.3,82.3,-13.1,82.1,-34.4,71.8C-55.8,61.4,-72,40.8,-77.9,17.1C-83.8,-6.5,-79.4,-33.1,-64.7,-51.6C-50,-70,-25,-80.2,-0.3,-80C24.3,-79.7,48.6,-68.9,63.5,-50.4Z" transform="translate(100 100)" />
+              </mask>
+              <g mask="url(#mask0)">
+                <path d="M63.5,-50.4C78.4,-32,84,-5.8,78.4,17.7C72.9,41.1,56.3,61.7,34.8,72C13.3,82.3,-13.1,82.1,-34.4,71.8C-55.8,61.4,-72,40.8,-77.9,17.1C-83.8,-6.5,-79.4,-33.1,-64.7,-51.6C-50,-70,-25,-80.2,-0.3,-80C24.3,-79.7,48.6,-68.9,63.5,-50.4Z" transform="translate(100 100)" />
+                <image class="home__blob-img" x='10' y='30' href="assets/img/profile.png"/>
+            </g>
+            </svg>
+          </div>
+
+          <div class="home__data">
+            <h1 class="home__title">Hola, soy Federico.</h1>
+            <h3 class="home__subtitle">Frontend Web / Javascript Developer</h3>
+            <p class="home__description .element">
+               Amante  por la programacion.
+            </p>
+            <a href="#contact" class="button button--flex button-rotate">
+              Contactarme<i class='uil uil-message button__icon'></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- <div class='home__scroll'>
+          <a href="#about" class="home__scroll-button button--flex">
+            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+            <span class='home__scroll-name'>Scroll down</span>
+            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+          </a>
+        </div> -->
+      </div>
+    </section>
+
+    <!--==================== ABOUT ====================-->
+    <section class="about section" id="about">
+      <h2 class="section__title">Acerca de mi</h2>
+      <span class="section__subtitle">Mi Introducción</span>
+
+      <div class="about__container container grid">
+        <img src="assets/img/about.svg" alt="computer dev" class="about__img">
+
+        <div class="about__data">
+          <p class="about__description">
+            Aprendiendo constantemente tecnologías relacionadas con la programación y el desarrollo web, 
+            actualmente me especializo en el desarrollo Frontend en React.
+          </p>
+
+          <!-- <div class="about__buttons">
+            <a download="" href="assets/pdf/cv.pdf" class="button button--flex">
+              Descargar CV<i class="uil uil-download-alt button__icon"></i>
+            </a>
+          </div> -->
+
+        </div>
+      </div>
+
+    </section>
+
+    <!--==================== PORTFOLIO ====================-->
+
+    <section class="portfolio section" id="portfolio">
+      <h2 class='section__title'>Portafolio</h2>
+      <span class='section__subtitle'>Proyectos recientes</span>
+
+      <div class="porfolio__container container">
+
+        <div class="row">
+          <!-- Top 4 -->
+          <div class="card">
+            <img src="https://res.cloudinary.com/dz209s6jk/image/upload/q_auto:good,w_900/Challenges/llcq9eiv3ney5tkxgdtu.jpg" alt="" class="portfolio__img">
+
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">Todo app</h3>
+              <p class="portfolio__description">
+                Aplicación de tareas pendientes creada con React.
+                Esta aplicación incluye un cambio de tema oscuro/claro y un reordenamiento de arrastrar
+              </p>
+            </div>
+
+            <div class="portfolio__links">
+              <a href="https://carlos95hd.github.io/react-todo-app/" target="_blank"
+               class="button button--flex button--small portfolio__button">
+                Demo
+                <i class="uil uil-arrow-right button__icon"></i>
+              </a>
+              <a href="https://github.com/Carlos95HD/react-todo-app" target="_blank" class="portfolio__git-icon">
+                <i class="uil uil-github"></i>
+              </a>
+            </div>
+        </div>
+
+          <div class="card">
+            <img src="https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Challenges/katmpcijwnmclxyfw3wr.jpg" alt="cover" class="portfolio__img">
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">URL shortening API</h3>
+              <p class="portfolio__description">
+                Landing page realizada con shrtcode API.
+                Tecnologias utilizadas: React, Typescript, Axios.
+              </p>
+            </div>
+
+            <div class="portfolio__links">
+              <a href="https://carlos95hd.github.io/react-url-shortening/" target="_blank"
+               class="button button--flex button--small portfolio__button">
+                Demo
+                <i class="uil uil-arrow-right button__icon"></i>
+              </a>
+              <a href="https://github.com/Carlos95HD/react-url-shortening" target="_blank" class="portfolio__git-icon">
+                <i class="uil uil-github"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="card">
+              <img src="assets/img/portfolio/countries-app.jpg" alt="countries-app" class="portfolio__img">
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Countries - App</h3>
+                <p class="portfolio__description">
+                  Web realizada con API Rest-Countries<br>
+                  Tecnologias utilizadas: React, Formik, Axios, React-Router-Dom, TailwindCSS.
+                </p>
+              </div>
+
+              <div class="portfolio__links">
+                <a href="https://carlos95hd.github.io/react-countries-app/" target="_blank"
+                class="button button--flex button--small portfolio__button">
+                 Demo
+                 <i class="uil uil-arrow-right button__icon"></i>
+               </a>
+               <a href="https://github.com/Carlos95HD/react-countries-app" target="_blank" class="portfolio__git-icon">
+                 <i class="uil uil-github"></i>
+               </a>
+              </div>
+          </div>
+
+          <div class="card">
+              <img src="assets/img/portfolio/challenge-alkemy.jpg" alt="countries-app" class="portfolio__img">
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Menu - App</h3>
+                <p class="portfolio__description">
+                  Challenge de Alkemy con utilización de spoonacular API <br>
+                  Tecnologias utilizadas: React, Redux, Axios, Formik, Jest, React-Router-Dom, Bootstrap.
+                </p>
+              </div>
+
+              <div class="portfolio__links">
+                <a href="https://challenge-alkemy-demo-carlos95hd.vercel.app/login" target="_blank"
+                class="button button--flex button--small portfolio__button">
+                Demo
+                <i class="uil uil-arrow-right button__icon"></i>
+              </a>
+              <a href="https://github.com/Carlos95HD/challenge-react-alkemy" target="_blank" class="portfolio__git-icon">
+                <i class="uil uil-github"></i>
+              </a>
+            </div>
+          </div>
+          <!-- <div class="column">
+            <div class="card"></div>
+          </div> -->
+        </div>
+
+        <!-- More Projects... -->
+        <div>
+          <a class="collapsible" >
+            Ver más <i class="uil uil-plus-circle collapsible__icon"></i>
+          </a>
+          <div class='content__collapsible'>
+
+          <div class="card">
+              <img src="https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Challenges/zfgce1seaqfllpuktpai.jpg" alt="cover" class="portfolio__img">
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Rastreador de direcciones IP</h3>
+                <p class="portfolio__description">
+                  Web realizada con diferentes API's
+                  Tecnologias utilizadas: React, TailwindCSS.
+                </p>
+              </div>
+
+              <div class="portfolio__links">
+                <a href="https://carlos95hd.github.io/ip-address-tracker" target="_blank"
+                 class="button button--flex button--small portfolio__button">
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+                <a href="https://github.com/Carlos95HD/ip-address-tracker" target="_blank" class="portfolio__git-icon">
+                  <i class="uil uil-github"></i>
+                </a>
+              </div>
+          </div>
+
+            <div class="card">
+              <img src="https://raw.githubusercontent.com/Carlos95HD/advice-generator-app/main/design/desktop-preview.jpg" alt="cover" class="portfolio__img">
+  
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Advice Generator</h3>
+                <p class="portfolio__description">
+                  Web Realizada con Advice Slip JSON API,
+                  Tecnologias utilizadas: React, Typescript, Axios.
+                </p>
+              </div>
+  
+              <div class="portfolio__links">
+                <a href="https://carlos95hd.github.io/advice-generator-app/" target="_blank"
+                 class="button button--flex button--small portfolio__button">
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+                <a href="https://github.com/Carlos95HD/advice-generator-app" target="_blank" class="portfolio__git-icon">
+                  <i class="uil uil-github"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="card">
+              <img src="assets/img/portfolio/2.jpg" alt="" class="portfolio__img">
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Juego de Preguntas</h3>
+                <p class="portfolio__description">
+                  Proyecto final realizado en el Informatorio.
+                  Tecnologias utilizadas: TailwindCSS, JavaScript, Django, SQL.
+                </p>
+              </div>
+              <div class="portfolio__links">
+                <a href="https://pregunchacoapp.herokuapp.com/" target="_blank" class="button button--flex button--small portfolio__button">
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+                <a href="https://github.com/Carlos95HD/pregunchaco-app" target="_blank" class="portfolio__git-icon">
+                  <i class="uil uil-github"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="card">
+              <img src="assets/img/portfolio/1.jpg" alt="" class="portfolio__img img-w">
+              
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Consulta de Clima Actual</h3>
+                <p class="portfolio__description">
+                  Consultas realizadas a la API OpenWeather.
+                  Tecnologias utililzadas: TailwindCSS, JavaScript.
+                </p>
+              </div>
+  
+              <div class="portfolio__links">
+                <a href="https://clima-deasi.netlify.app/" target="_blank"
+                  class="button button--flex button--small portfolio__button">
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+                <a href="https://github.com/Carlos95HD/weather-project" target="_blank" class="portfolio__git-icon">
+                  <i class="uil uil-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!--==================== SKILLS ====================-->
+    <section class="skills section" id="skills">
+      <h2 class="section__title">Skills</h2>
+      <span class="section__subtitle">Tecnologías</span>
+      <div class="skills__container container">
+        <div class="skills__wrapper">
+          <!--==================== SKILLS FRONTEND ====================-->
+          <!-- <div class="skills__content skills__close"> -->
+          <div class="skills__content">
+            <div class="skills__header">
+              <i class="uil uil-brackets-curly skills__icon"></i>
+
+              <div>
+                <h1 class="skills__titles">Desarrollo Frontend</h1>
+                <span class="skills_subtitle_frontend"></span>
+              </div>
+
+              <!-- <i class="uil uil-angle-down skills__arrow"></i> -->
+            </div>
+
+            <div class="skills__list grid">
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <img src="assets/img/skills/frontend/html.svg" class="language__logo-img" alt="">
+                  <h3 class="skills__name">HTML</h3>
+                  <!-- <span class="skills__number">90%</span> -->
+                </div>
+
+                <!-- <div class="skills__bar">
+                            <span class="skills__percentage skills__html"></span>
+                          </div> -->
+              </div>
+
+
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <img src="assets/img/skills/frontend/css.svg" class="language__logo-img" alt="">
+                  <h3 class="skills__name">CSS</h3>
+                  <!-- <span class="skills__number">80%</span> -->
+                </div>
+
+                <!-- <div class="skills__bar">
+                            <span class="skills__percentage skills__css"></span>
+                          </div> -->
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <img src="assets/img/skills/frontend/js.svg" class="language__logo-img" alt="JavaScript">
+                  <h3 class="skills__name">JavaScript</h3>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <img src="assets/img/skills/frontend/bootstrap.svg" class="language__logo-img" alt="" title=''>
+                  <h3 class="skills__name">Bootstrap</h3>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <img src="assets/img/skills/frontend/tailwindcss.svg" class="language__logo-img" alt="tailwindcss" title=''>
+                  <h3 class="skills__name">Tailwind CSS</h3>
+                </div>
+              </div>
+
+              <!-- <div class="current__study">
+                <h3>Aprendiendo</h3>
+              </div> -->
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <img src="assets/img/skills/frontend/react.svg" class="language__logo-img" alt="react" title='react'>
+                  <h3 class="skills__name">React</h3>
+                </div>
+              </div>
+
+              <!-- <div class="skills__data">
+                          <div class="skills__titles">
+                            <h3 class="skills__name">React</h3>
+                            <span class="skills__number">50%</span>
+                          </div>
+
+                          <div class="skills__bar">
+                            <span class="skills__percentage skills__react"></span>
+                          </div>
+                        </div> -->
+
+            </div>
+          </div>
+          <!--==================== SKILLS BACKEND ====================-->
+          <div class="skills__content">
+            <div class="skills__header">
+              <i class="uil uil-server-network skills__icon"></i>
+
+              <div>
+                <h1 class="skills__titles">Desarrollo Backend</h1>
+                <span class="skills_subtitle_backend"></span>
+              </div>
+            </div>
+
+
+            <div class="skills__list grid">
+
+              <!-- <div class="current__study">
+                <h3>Aprendiendo</h3>
+              </div> -->
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <img src="assets/img/skills/backend/python.svg" class="language__logo-img" alt="">
+                  <h3 class="skills__name">Python</h3>
+                </div>
+
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <img src="assets/img/skills/backend/django.svg" class="language__logo-img" alt="">
+                  <h3 class="skills__name">Django</h3>
+                </div>
+
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <img src="assets/img/skills/backend/sqlserver.svg" class="language__logo-img" alt="">
+                  <h3 class="skills__name">MS SQL Server</h3>
+                  <!-- <span class="skills__number">50%</span> -->
+                </div>
+
+              </div>
+
+              <!-- <div class="skills__data">
+                        <div class="skills__titles">
+                          <h3 class="skills__name">Python</h3>
+                          <span class="skills__number">80%</span>
+                        </div>
+
+                        <div class="skills__bar">
+                          <span class="skills__percentage skills__python"></span>
+                        </div>
+                      </div>
+                    </div>
+                    </div> -->
+            </div>
+          </div>
+          <!--==================== SKILLS TOOLS ====================-->
+          <div class="skills__content">
+            <div class="skills__header">
+              <i class="uil uil-wrench skills__icon"></i>
+
+              <div>
+                <h1 class="skills__titles">Herramientas</h1>
+                <span class="skills_subtitle_tools"></span>
+              </div>
+            </div>
+
+            <div class="skills__list grid">
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <img src="assets/img/skills/tools/git.svg" class="language__logo-img" alt="">
+                  <h3 class="skills__name">Git</h3>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <img src="https://www.vectorlogo.zone/logos/github/github-icon.svg" class="language__logo-img" alt="">
+                  <h3 class="skills__name">Github</h3>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <img src="assets/img/skills/tools/postman.svg" class="language__logo-img" alt="">
+                  <h3 class="skills__name">Postman</h3>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <img src="assets/img/skills/tools/vscode.svg" class="language__logo-img" alt="">
+                  <h3 class="skills__name">Visual Studio Code</h3>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!--==================== QUALIFICATION ====================-->
+    <section class="qualification section" id="study">
+      <h2 class="section__title">Estudios</h2>
+      <span class="section__subtitle">Mi viaje personal</span>
+
+      <div class="qualification__container container">
+        <div class="qualification__tabs">
+          <div class="qualification__button button--flex qualification__active" data-target='#education'>
+            <i class="uil uil-graduation-cap qualification__icon"></i>
+            Educación
+          </div>
+        </div>
+
+        <div class="qualification__sections">
+          <!--==================== QUALIFICATION CONTENT 1 Education ====================-->
+
+          <div class='qualification__content qualification__active' data-content id="education">
+            <!--==================== QUALIFICATION 7 ====================-->
+            <div class="qualification__data">
+              <div></div>
+
+              <div>
+                <span class="qualification__rounder"></span>
+                <span class="qualification__line"></span>
+              </div>
+
+              <div>
+                <h3 class="qualification__title">React Hooks <br> MERN
+                  <a href="https://www.udemy.com/certificate/UC-748b769b-8682-4d93-be9a-880cc6543365/"
+                    target="_blank" class="tooltip">
+                    <span class="tooltiptext">Ver</span>
+                    <i class="uil uil-eye watch__icon"></i>
+                  </a>
+                </h3>
+                <span class="qualification__subtitle"><a href ="https://www.udemy.com/" target="_blank">Udemy</a></span>
+                <div class="qualification__calendar">
+                  <i class="uil uil-calendar-alt"></i>
+                  Feb - 2022
+                </div>
+              </div>
+
+            </div>
+            <!--==================== QUALIFICATION 6 ====================-->
+            <div class="qualification__data">
+              <!-- <div></div> -->
+
+              <div>
+                <h3 class="qualification__title">Especialización en Tecnologías de Desarrollo
+                  <a href="assets/img/certifications/E3.jpg"
+                    target="_blank" class="tooltip">
+                    <span class="tooltiptext">Ver</span>
+                    <i class="uil uil-eye watch__icon"></i>
+                  </a>
+                </h3>
+                <span class="qualification__subtitle"><a href ="https://empleo.chaco.gob.ar/informatorio#/" target="_blank">Informatorio</a></span>
+                <div class="qualification__calendar">
+                  <i class="uil uil-calendar-alt"></i>
+                  Dic - 2021
+                </div>
+              </div>
+              
+              <div>
+                <span class="qualification__rounder"></span>
+                <span class="qualification__line"></span>
+              </div>
+            </div>
+
+            <!--==================== QUALIFICATION 5 ====================-->
+            <div class="qualification__data">
+              <div></div>
+
+              <div>
+                <span class="qualification__rounder"></span>
+                <span class="qualification__line"></span>
+              </div>
+
+              <div>
+                <h3 class="qualification__title">Programación y Desarrollo Web
+                  <a href="assets/img/certifications/dweb.jpg"
+                    target="_blank" class="tooltip">
+                    <span class="tooltiptext">Ver</span>
+                    <i class="uil uil-eye watch__icon"></i>
+                  </a>
+                </h3>
+                <span class="qualification__subtitle"><a href ="https://empleo.chaco.gob.ar/informatorio#/" target="_blank">Informatorio</a></span>
+                <div class="qualification__calendar">
+                  <i class="uil uil-calendar-alt"></i>
+                  Agt - 2021
+                </div>
+              </div>
+
+            </div>
+            <!--==================== QUALIFICATION 4 ====================-->
+            <div class="qualification__data">
+              <div>
+
+                <h3 class="qualification__title">Introducción a la Programación 
+                  <a href="assets/img/certifications/introduccion.jpg"
+                    target="_blank" class="tooltip">
+                    <span class="tooltiptext">Ver</span>
+                    <i class="uil uil-eye watch__icon"></i>
+                  </a>
+                </h3>
+                    <span class="qualification__subtitle"><a href ="https://empleo.chaco.gob.ar/informatorio#/" target="_blank">Informatorio</a></span>
+                <div class="qualification__calendar">
+                  <i class="uil uil-calendar-alt"></i>
+                  Abr - 2021
+                </div>
+              </div>
+
+              <div>
+                <span class="qualification__rounder"></span>
+                <span class="qualification__line"></span>
+              </div>
+            </div>
+
+            <!--==================== QUALIFICATION 3 ====================-->
+            <div class="qualification__data">
+              <div></div>
+              <div>
+                <span class="qualification__rounder"></span>
+                <span class="qualification__line"></span>
+              </div>
+              
+              <div>
+                <h3 class="qualification__title">Master<br>JavaScript <a
+                  href="https://www.udemy.com/certificate/UC-82338993-cc0d-4dc6-bfaf-defba19e799f/" target="_blank"
+                  class="tooltip">
+                  <span class="tooltiptext">Ver</span>
+                  <i class="uil uil-eye watch__icon"></i></a></h3>
+                    
+                  <span class="qualification__subtitle"><a href ="https://www.udemy.com/" target="_blank">Udemy</a></span>
+                    <div class="qualification__calendar">
+                      <i class="uil uil-calendar-alt"></i>
+                      Ene - 2021
+                    </div>
+                  </div>
+                  
+
+                </div>
+            <!--==================== QUALIFICATION 2 ====================-->
+            <div class="qualification__data qualification-open">
+              <!-- <div></div> -->
+
+              
+              <div>
+                <h3 class="qualification__title">Curso JavaScript Moderno <a
+                  href="https://www.udemy.com/certificate/UC-5d010d24-7e99-46cd-844a-66b281c10b65/" target="_blank"
+                  class="tooltip">
+                  <span class="tooltiptext">Ver</span>
+                  <i class="uil uil-eye watch__icon"></i></a></h3></a>
+                  
+                  <span class="qualification__subtitle"><a href ="https://www.udemy.com/" target="_blank">Udemy</a></span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    Dic - 2020
+                  </div>
+                </div>
+                
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+            </div>
+
+            <!--==================== QUALIFICATION 1 ====================-->
+            <div class="qualification__data qualification-open">
+              <div></div>
+
+              <div>
+                <span class="qualification__rounder"></span>
+                <!-- <span class="qualification__line"></span> -->
+              </div>
+
+              <div>
+                <h3 class="qualification__title">Master CSS <a
+                    href="https://www.udemy.com/certificate/UC-77404c1b-633c-41a7-81a7-56b1635a672e/" target="_blank"
+                    class="tooltip">
+                    <span class="tooltiptext">Ver</span>
+                    <i class="uil uil-eye watch__icon"></i></a></h3>
+
+                    <span class="qualification__subtitle"><a href ="https://www.udemy.com/" target="_blank">Udemy</a></span>
+                <div class="qualification__calendar">
+                  <i class="uil uil-calendar-alt"></i>
+                  Oct - 2020
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+    </section>
+
+    <!--==================== CONTACT ME ====================-->
+    <section class="contact section" id="contact">
+      <h2 class="section__title">Contacto</h2>
+      <span class="section__subtitle"></span>
+
+      <div class="contact__container container grid">
+        <div>
+
+          <div class="contact__information">
+            <i class="uil uil-envelope contact__icon"></i>
+
+            <div>
+              <h3 class="contact__title">Correo</h3>
+              <a href=" " class="contact__subtitle" id='contact__mailto'>Click aquí</a>
+            </div>
+          </div>
+
+          <div class="contact__information">
+            <i class="uil uil-map-marker contact__icon"></i>
+
+            <div>
+              <h3 class="contact__title">Ubicación</h3>
+              <span class="contact__subtitle">Argentina - Chaco</span>
+            </div>
+          </div>
+        </div>
+
+
+        <form class='contact__form grid' id='send-mail' method='POST'><input type='hidden' name='form-name' value='send-mail' />
+          <div class="contact__inputs grid">
+            <div class="contact__content">
+              <label for="name" class="contact__label">Nombre</label>
+              <input type="text" name="name" class="contact__input" id="name">
+            </div>
+
+            <div class="contact__content">
+              <label for="email" class="contact__label">Email</label>
+              <input type="email" name="email" class="contact__input" id="email">
+            </div>
+          </div>
+
+          <div class="contact__content">
+            <label for="asunto" class="contact__label">Asunto</label>
+            <input type="text" name="asunto" class="contact__input" id="asunto">
+          </div>
+
+          <div class="contact__content">
+            <label for="message" class="contact__label">Mensaje</label>
+            <textarea name="message" cols="0" rows="7" class="contact__input" id='message'></textarea>
+          </div>
+          <p class="hidden">
+            <label>Rellenar<input name="bot-field" /></label>
+          </p>
+          <!-- <div class="g-recaptcha" data-theme="light" data-sitekey="6LfCDbwbAAAAAInCy5vdGRrHyUnCiYrYNBDA3y3V" data-callback="onReCaptcha"></div> -->
+
+          <div class="div__send">
+            <button href="#" class="button button--flex" type="submit" id="enviar">
+              <span>Enviar</span>
+              <i class="uil uil-message button__icon"></i>
+            </button>
+
+
+            <div class="spinner">
+              <div class="bounce1"></div>
+              <div class="bounce2"></div>
+              <div class="bounce3"></div>
+            </div>
+
+            <!-- <p class="exit">Mensaje enviado</p> -->
+          </div>
+
+
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!--==================== FOOTER ====================-->
+  <footer class="footer">
+    <div class="footer__bg">
+      <div class="footer__container container grid">
+        <div>
+          <h1 class="footer__title">Deasi</h1>
+          <span class="footer__subtitle">Desarrollador Web</span>
+        </div>
+
+        <ul class="footer__links">
+          <li>
+            <a href="#about" class="footer__link">Acerca</a>
+          </li>
+          <li>
+            <a href="#portfolio" class="footer__link">Portafolio</a>
+          </li>
+          <li>
+            <a href="#contact" class="footer__link">Contacto</a>
+          </li>
+        </ul>
+
+        <div class="footer__socials">
+          <!-- <a href="https://www.facebook.com/" target="_blank" class="footer__social">
+            <i class="uil uil-facebook-f"></i>
+          </a> -->
+          <!-- <a href="https://www.instagram.com/" target="_blank" class="footer__social">
+            <i class="uil uil-instagram"></i>
+          </a> -->
+          <a href="https://github.com/fcurrao" target="_blank" class="footer__social">
+            <i class="uil uil-github"></i>
+          </a>
+
+          <a href="https://www.linkedin.com/in/federico-currao-837034102/" target="_blank" class="footer__social">
+            <i class="uil uil-linkedin"></i>
+          </a>
+        </div>
+      </div>
+
+      <p class="footer__copy">&#169; Fcurrao  GQUE - All rights reserved</p>
+    </div>
+
+  </footer>
+
+  <!--==================== SCROLL TOP ====================-->
+  <a href="#" class="scrollup" id="scroll-up">
+    <i class="uil uil-arrow-up scrollup__icon"></i>
+  </a>
+
+  <!--==================== SWIPER JS ====================-->
+  <script src="assets/js/swiper-bundle.min.js"></script>
+
+  <!--==================== MAIN JS ====================-->
+  <script src="assets/js/main.js" type="module"></script>
+</body>
+
+</html>
+
+
+<!-- Made by Gque® -->
+<!-- 
+  ....................................................................................
+  ....................................................................................
+  .......*********....................................................................
+  ....*****.....*****.................................................................
+  ...****.........***.................................................................
+  ..****..............................................................................
+  .****...............................................................................
+  *****...............................................................................
+  *****...............................................................................
+  *****...............................................................................
+  .****.......********.........*********........****.....****.......*********.........
+  ..****.......*******.....*****....******......****.....****....*****......****......
+  ...****.........****.....****......*****......****.....****....****.......****......
+  ....****************.....****......*****......****.....****....****...********......
+  ....****************.....*****....******.......****...****.....*****................
+  ........*********...........*********...........**********.......*********..........
+  ........*********...........*********...........**********.......*********.........
+  ...................................*******..........................................
+  ....................................******..........................................
+  ....................................................................................
+  .................................................................................... 
+  ...........................https://github.com/fcurrao...............................
+  ......................................2016..........................................
+ -->
+<!-- Made by Gque® -->

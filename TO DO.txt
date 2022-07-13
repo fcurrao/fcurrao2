@@ -1,0 +1,38 @@
+
+********************************
+TODO
+********************************
+
+* SUBIR ESTA PAGINA
+https://casamientofym.netlify.app/
+
+* SUBIR JUEGO APP
+
+* SUBIR PAGINA DE ESI
+
+* SUBIR PAGINA DE OTRO
+
+* SUBIR PAGINAS CON APIS
+
+* SUBIR PROYECTO DE REACT
+
+* SUBIR ECOMERCE NATURAL DELI MIA
+
+
+********************************
+BASES
+********************************
+
+* EJEMPLO:
+https://deasiportfolio.netlify.app/#portfolio
+
+* MIO: 
+https://app.netlify.com/sites/fcurrao
+
+
+
+
+
+
+
+<
