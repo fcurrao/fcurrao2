@@ -1,0 +1,14 @@
+{
+    // Use IntelliSense para saber los atributos posibles.
+    // Mantenga el puntero para ver las descripciones de los existentes atributos.
+    // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "pwa-chrome",
+            "request": "launch",
+            "name": "Open index.html",
+            "file": "g:\\.shortcut-targets-by-id\\1OlNfM3q43TSTLG6fLeoRH42QPhz-jSUi\\0- TODO\\0_DEV\\GQUE_PROYECTOS\\Webs\\fcurrao - gque\\index.html"
+        }
+    ]
+}
